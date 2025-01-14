@@ -31,7 +31,7 @@ menu.onclick = function(){
     menuList.classList.toggle('visible');
 }
 
-//alertas
+//Alertas
 
 document.getElementById('cp__planes_de_trabajo').onclick = () => {
     Swal.fire({
@@ -68,3 +68,30 @@ document.getElementById('cp__mapeo_obras').onclick = () => {
         confirmButtonText: 'Ok'
       });
     };
+
+const anclasForm = document.querySelectorAll('.alert_form');
+anclasForm.forEach(ancla => { ancla.addEventListener('click', function(event) { event.preventDefault();
+  Swal.fire({
+    title: 'Formulario de registro de datos',
+    text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la formulario de Google para la carga de datos de la opción seleccionada.',
+    icon: 'info',
+    confirmButtonText: 'Ok'
+}); }); });
+
+const anclasRD = document.querySelectorAll('.alert_RD');
+anclasRD.forEach(ancla => { ancla.addEventListener('click', function(event) { event.preventDefault();
+  Swal.fire({
+    title: 'Formulario de registro de trabajo diario',
+    text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la formulario de Google con los convenios asignados al agente seleccionado para realizar las cargas diarias del trabajo realizado en territorio.',
+    icon: 'info',
+    confirmButtonText: 'Ok'
+}); }); });
+
+const anclasGS = document.querySelectorAll('.alert_GS');
+anclasGS.forEach(ancla => { ancla.addEventListener('click', function(event) { event.preventDefault();
+  Swal.fire({
+    title: 'Planilla de registro',
+    text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la planilla de GoogleSheet asociada al formulario seleccionado.',
+    icon: 'info',
+    confirmButtonText: 'Ok'
+}); }); });
