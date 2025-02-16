@@ -36,7 +36,7 @@ menu.onclick = function(){
 document.getElementById('cp__planes_de_trabajo').onclick = () => {
     Swal.fire({
       title: 'Planes de Trabajo',
-      text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a una carpeta compartida donde están todos los planes de trabajo de las entidades con convenios vigentes.',
+      text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resguardar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a una carpeta compartida donde están todos los planes de trabajo de las entidades con convenios vigentes.',
       icon: 'info',
       confirmButtonText: 'Ok'
     });
@@ -45,7 +45,7 @@ document.getElementById('cp__planes_de_trabajo').onclick = () => {
 document.getElementById('cp__fichas_cauce').onclick = () => {
     Swal.fire({
       title: 'Fichas de Cauce',
-      text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a una carpeta compartida donde están Fichas de cauce con información detallada de los tramos bajo convenio.',
+      text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resguardar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a una carpeta compartida donde están Fichas de cauce con información detallada de los tramos bajo convenio.',
       icon: 'info',
       confirmButtonText: 'Ok'
     });
@@ -54,7 +54,7 @@ document.getElementById('cp__fichas_cauce').onclick = () => {
 document.getElementById('cp__informes_municipios').onclick = () => {
     Swal.fire({
       title: 'Informes por municipio',
-      text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a una carpeta compartida donde están los informes de cada municipio con sus respectivas obras.',
+      text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resguardar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a una carpeta compartida donde están los informes de cada municipio con sus respectivas obras.',
       icon: 'info',
       confirmButtonText: 'Ok'
     });
@@ -63,7 +63,7 @@ document.getElementById('cp__informes_municipios').onclick = () => {
 document.getElementById('cp__mapeo_obras').onclick = () => {
       Swal.fire({
         title: 'Mapeo de Obras',
-        text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a una carpeta compartida donde están los archivos .kmz de las obras vigentes.',
+        text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resguardar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a una carpeta compartida donde están los archivos .kmz de las obras vigentes.',
         icon: 'info',
         confirmButtonText: 'Ok'
       });
@@ -73,7 +73,7 @@ const anclasForm = document.querySelectorAll('.alert_form');
 anclasForm.forEach(ancla => { ancla.addEventListener('click', function(event) { event.preventDefault();
   Swal.fire({
     title: 'Formulario de registro de datos',
-    text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la formulario de Google para la carga de datos de la opción seleccionada.',
+    text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resguardar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la formulario de Google para la carga de datos de la opción seleccionada.',
     icon: 'info',
     confirmButtonText: 'Ok'
 }); }); });
@@ -82,7 +82,7 @@ const anclasRD = document.querySelectorAll('.alert_RD');
 anclasRD.forEach(ancla => { ancla.addEventListener('click', function(event) { event.preventDefault();
   Swal.fire({
     title: 'Formulario de registro de trabajo diario',
-    text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la formulario de Google con los convenios asignados al agente seleccionado para realizar las cargas diarias del trabajo realizado en territorio.',
+    text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resguardar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la formulario de Google con los convenios asignados al agente seleccionado para realizar las cargas diarias del trabajo realizado en territorio.',
     icon: 'info',
     confirmButtonText: 'Ok'
 }); }); });
@@ -91,7 +91,7 @@ const anclasGS = document.querySelectorAll('.alert_GS');
 anclasGS.forEach(ancla => { ancla.addEventListener('click', function(event) { event.preventDefault();
   Swal.fire({
     title: 'Planilla de registro',
-    text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la planilla de GoogleSheet asociada al formulario seleccionado.',
+    text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resguardar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la planilla de GoogleSheet asociada al formulario seleccionado.',
     icon: 'info',
     confirmButtonText: 'Ok'
 }); }); });
